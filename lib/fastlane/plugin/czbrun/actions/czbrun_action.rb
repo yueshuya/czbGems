@@ -3,6 +3,7 @@ module Fastlane
     class CzbrunAction < Action
       def self.run(params)
         UI.message("The czbrun plugin is working!")
+        puts "111111111111111111111111111111111111111111111"
       end
 
       def self.description
